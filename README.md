@@ -23,6 +23,7 @@ When the main method is run (in the Main class), the tables of daily aggregates 
 ### Tests
 To test the Aggregate Calculation run:
 /src/test/java/com/fdmgroup/codingChallengeDB/AggregatesCalculatorTest.java
-To test the Reader run:
 
+To test the Reader run:
+/src/test/java/com/fdmgroup/codingChallengeDB/ReaderTest.java
 
