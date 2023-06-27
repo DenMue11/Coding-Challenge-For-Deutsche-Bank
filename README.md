@@ -17,22 +17,10 @@ Some tickers did not trade in certain days. That was made visible in the tables 
 ### Creating Index
 The INDEX is created with the help of the IndexCreator class. With the createIndexDoubleArray of the IndexCreator class double arrays are created, that consist of the sum of ticker prices (min,max,first,last prices and daily traded volume). The double arrays are used to create the INDEX table.
 
-### Output
-When the main method is run (in the Main class) the Output has the format:
+### Run
+When the main method is run (in the Main class), the tables of daily aggregates of all tickers and the INDEX-table appear in the console.
 
-<div>
-                                   Table of daily aggregates of ABC ticker                                   
- Date_Time date  |  First [price]  |  Max [price]  |  Min [price]  |  Last [price]  |  daily traded volume  |
--------------------------------------------------------------------------------------------------------------
-     2023-06-01  |         ...     |      ...      |      ...      |      ...      |           ...          |
-     2023-06-02  |         ...     |      ...      |      ...      |      ...      |           ...          |
-     ...         |         ...     |      ...      |      ...      |      ...      |           ...          |
+### Tests
+To test the Aggregate Calculation run:
 
-                                                              INDEX                                                                 
- Date_Time date  |     first price      |      max price       |      min price       |      last price      |  daily traded volume  |
---------------------------------------------------------------------------------------------------------------------------------------
-     2023-06-01  |         ...          |      ...             |      ...             |      ...             |           ...          |
-     2023-06-02  |         ...          |      ...             |      ...             |      ...             |           ...          |
-     ...         |         ...          |      ...             |      ...             |      ...             |           ...          |
-    
-</div>
+
