@@ -21,14 +21,14 @@ The INDEX is created with the help of the IndexCreator class. With the createInd
 When the main method is run (in the Main class) the Output has the format:
 
 \                                   Table of daily aggregates of ABC ticker                                   
- \Date_Time date  |  First [price]  |  Max [price]  |  Min [price]  |  Last [price]  |  daily traded volume  |
+ \Date\_Time date  |  First \[price\]  |  Max \[price\]  |  Min \[price\]  |  Last \[price\]  |  daily traded volume  |
 \-------------------------------------------------------------------------------------------------------------
  \    2023-06-01  |         ...     |      ...      |      ...      |      ...      |           ...          |
   \   2023-06-02  |         ...     |      ...      |      ...      |      ...      |           ...          |
    \  ...         |         ...     |      ...      |      ...      |      ...      |           ...          |
 
  \                                                               INDEX                                                                 
- \Date_Time date  |     first price      |      max price       |      min price       |      last price      |  daily traded volume  |
+ \Date\_Time date  |     first price      |      max price       |      min price       |      last price      |  daily traded volume  |
 \--------------------------------------------------------------------------------------------------------------------------------------
  \    2023-06-01  |         ...          |      ...             |      ...             |      ...             |           ...          |
   \   2023-06-02  |         ...          |      ...             |      ...             |      ...             |           ...          |
