@@ -12,5 +12,8 @@ This function takes in a table as argument. To calculate the daily aggregates of
 The function returns a table consisting of daily aggregates. The table of the aggregates can be displayed with a System.out.println(tableOfAggregates); command.
 
 ### Handling days where ticker did not trade
-Some tickers did not trade in certain days. That was made visible in the tables with the DealingWithNoTrades class. With the addDaysOfNoTrade-function specified days can be added to the desired table. 
+Some tickers did not trade in certain days. That was made visible in the tables with the DealingWithNoTrades class. With the addDaysOfNoTrade-function specified days can be added to the desired table. The days were no trades were made appear in the table with 0-values in all of their columns(except date).
+
+### Creating Index
+
 
