@@ -15,5 +15,5 @@ The function returns a table consisting of daily aggregates. The table of the ag
 Some tickers did not trade in certain days. That was made visible in the tables with the DealingWithNoTrades class. With the addDaysOfNoTrade-function specified days can be added to the desired table. The days were no trades were made appear in the table with 0-values in all of their columns(except date).
 
 ### Creating Index
-
+The INDEX is created with the help of the IndexCreator class. With the createIndexDoubleArray of the IndexCreator class double arrays are created, that consist of the sum of ticker prices (min,max,first,last prices and daily traded volume). The double arrays are used to create the INDEX table.
 
